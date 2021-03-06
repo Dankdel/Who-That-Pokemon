@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<link rel="stylesheet" type="text/css" href="dankstyle.css">
+		<script src= "https://code.jquery.com/jquery-3.2.1.js"></script>
+		<!-- <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script> -->
+		<script src="dankscript.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1 id="thatPokemon">Who's that Pokemon?</h1>
+			</header>
+			<main>
+				<div id="imageHolder">
+					<canvas id="processCanvas"></canvas>
+					<img id="pokemonImg" src="">
+				</div>
+				<h1 id="pokemonName"></h1>
+				<h1 id="hiddenName">__________________</h1>
+				<h2 id="guessTimer">Time: </h2>
+				<h2>
+					Win: <span id="winCount">0</span>
+					Loss: <span id="lossCount">0</span>
+				</h2>
+				<h4 id="gen_wrapper">
+					<label>Generation:</label>
+					<select id="gen_select">
+						<option value="1,807">All</option>
+						<option value="1,151">Gen 1</option>
+						<option value="152,251">Gen 2</option>
+						<option value="252,386">Gen 3</option>
+						<option value="387,493">Gen 4</option>
+						<option value="494,649">Gen 5</option>
+						<option value="650,721">Gen 6</option>
+						<option value="722,807">Gen 7</option>
+					</select>
+				</h4>
+				<input id="guessName">
+				<a id="startGame" class="button">Start Game</a>
+				<a id="playAgain" class="button">Play Again</a>
+			</main>
+			<footer>
+				<p>
+			           Pokémon and Pokémon character names are trademarks of Nintendo.
+				</p>
+				</p>7
+				<br>
+				<p>
+		                   Made By [AFK] ダンクデル | Dank-del |.
+				</p>
+			</footer>
+		</div>	<!-- End of wrapper -->
+	</body>
+</html>
